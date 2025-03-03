@@ -1,0 +1,38 @@
+Generate a mobile-friendly web app using HTML, CSS, and JavaScript for an AI-powered mobile booster called BoostIQ Pro. The app should:
+
+🔹 User Interface (UI):
+
+Display real-time phone insights (CPU, RAM, battery, storage usage) using placeholder values (to be replaced with actual data later).
+Have a ‘Boost Now’ button that triggers AI-powered optimization.
+Show a performance score and improvement suggestions after analysis.
+Provide a clean, mobile-first UI, optimized for both web and mobile use.
+🔹 AI-Based Performance Analysis & Optimization:
+
+Implement simulated AI-driven analysis that:
+Identifies excessive CPU, RAM, and battery usage.
+Suggests ways to improve device performance.
+Ensure AI logic is modular, so real-time measurements can be added later.
+Create a function that sends device insights to Groq AI API to receive real-time optimization strategies.
+Implement a system to compare different optimization techniques from top performance booster apps and select the best one dynamically.
+🔹 Device Optimization Features:
+
+Allow AI to:
+Close background apps that consume excessive resources.
+Clear unnecessary cache files and free up memory.
+Adjust CPU and power settings dynamically to optimize battery life.
+Detect high-power-consuming apps and recommend actions.
+Ensure optimization logic can run in the background without affecting user experience.
+🔹 Future Integration with Pieces OS & Groq AI:
+
+Structure the app so that Pieces OS can later replace placeholders with real-time device data.
+Implement an API-ready function to send real device stats to Groq AI, retrieve optimization strategies, and apply them dynamically.
+🔹 Android App Wrapping & Deployment:
+
+Ensure the web app is designed to be easily wrapped into an Android app using Capacitor.js.
+Keep file structure clean so it can be integrated smoothly into a mobile environment.
+Use responsive design and fast-loading assets for optimal mobile performance.
+🔹 Performance & Monetization:
+
+Optimize JavaScript execution for smooth performance on mobile.
+Implement a premium AI optimization mode that requires a subscription.
+Output: A fully functional web app with an AI-powered device optimization system that can analyze and optimize performance dynamically. The app should be structured for easy conversion into an Android app using Capacitor.js."
